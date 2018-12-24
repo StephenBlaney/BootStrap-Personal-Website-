@@ -32,13 +32,13 @@ transform: translateY(-50%);
 .carousel-caption h1 {
 font-size: 500%;
 text-transform: uppercase;
-text-shadow: 1px 1px 15px #000;
+text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 
 }
 .carousel-caption h3 {
 font-size: 200%;
 font-weight: 500%;
-text-shadow:  1px 1px 10px #000;
+text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 padding-bottom: 1rem;
 }
 
@@ -71,7 +71,7 @@ border: 1px solid #6648b1;
 .welcome hr {
 border-top: 2px solid #b4b4b4;
 width: 95%;
-margin-top: .3rem;
+margin-top: .1rem;
 margin-bottom: 1rem;
 }
 
@@ -79,16 +79,17 @@ margin-bottom: 1rem;
   color: #e45236
 }
 
-.fa-bold {
+.fa-database {
   color: #563d7c;
 }
-.fa-css3{
+.fa-android{
 color: #2163af;
 }
 
-.fa-code, .fa-bold, .fa-css3 {
+.fa-code, .fa-database, .fa-android {
 font-size: 4em;
-margin: 1em;
+margin-bottom: 1rem;
+
 }
 .social a {
 font-size: 4.5em;
@@ -160,6 +161,24 @@ hr.light-100{
     font-size: 4em;
     padding: 2rem;
   }
+
+  .carousel-caption {
+  top:45%;
+  }
+
+  .carousel-caption h1 {
+  font-size: 350%;
+  }
+  .carousel-caption h3 {
+  font-size: 140%;
+  font-weight: 400;
+  padding-bottom: .2rem;
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+
+  }
   }
 @media (max-width: 768px) {
   .carousel-caption {
@@ -167,6 +186,33 @@ hr.light-100{
   }
   .carousel-caption h1 {
   font-size: 350%;
+  }
+  .carousel-caption h3 {
+  font-size: 140%;
+  font-weight: 400;
+  padding-bottom: .2rem;
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+
+  }
+  .display-4{
+    font-size: 200%;
+
+  }
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 646px) {
+  .carousel-caption {
+  top:35%;
+  }
+  .carousel-caption h1 {
+  font-size: 300%;
   }
   .carousel-caption h3 {
   font-size: 140%;
@@ -215,6 +261,64 @@ hr.light-100{
     padding: .7rem;
   }
 }
+
+@media (max-width: 414px) {
+  .carousel-caption {
+  top:45%;
+  }
+  .carousel-caption h1 {
+  font-size: 100%;
+  }
+  .carousel-caption h3 {
+  font-size: 100%;
+  }
+  .carousel-caption .btn {
+    font-size: 50%;
+    padding: 2px 4px;
+
+  }
+  .carousel-indicators{
+    display: none;
+  }
+  .display-4{
+    font-size: 160%;
+
+  }
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .carousel-caption {
+  top:40%;
+  }
+  .carousel-caption h1 {
+  font-size: 100%;
+  }
+  .carousel-caption h3 {
+  font-size: 100%;
+  }
+  .carousel-caption .btn {
+    font-size: 50%;
+    padding: 2px 4px;
+
+  }
+  .carousel-indicators{
+    display: none;
+  }
+  .display-4{
+    font-size: 120%;
+
+  }
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
+}
+
+
 
 
 /*---Firefox Bug Fix --*/
