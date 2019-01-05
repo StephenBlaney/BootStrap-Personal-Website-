@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="C:\Users\Stephen\Desktop\Bootstrap-4-Site-Starter-Files\Bootstrap 4 Site Starter Files\img\images.png">
+	<link rel="icon" type="image/png" href="img\images.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Stephen Blaney</title>
@@ -16,31 +16,31 @@
 <body>
 
 <!-- Navigation -->
-
-<nav class = "navbar navbar-expand-md navbar-light bg-light stick-top">
+<nav class = "navbar navbar-expand-md navbar-light bg-light fixed-top" id = "navbar">
 <div class = "container-fluid">
 	<button class = "navbar-toggler" type="button" data-toggle="collapse"
 	data-target="#navbarResponsive">
 		<span class ="navbar-toggler-icon"></span>
 	</button>
-	<div class="collapse navbar-collapse" id="navbarResponsive">
+	<div id = "navbarResponsive" class="collapse navbar-collapse">
 		<ul class ="navbar-nav ml-auto">
 			<li class="nav-item active">
-				<a class = "nav-link" href="#">Home</a>
+				<a class = "nav-link" href="#Home">Home</a>
 			</li>
 			<li class="nav-item">
 				<a class ="nav-link" href="#About"> About</a>
 			</li>
 			<li class="nav-item">
-				<a class = "nav-link" href="#"> Projects</a>
+				<a class = "nav-link" href="#Projects">Projects</a>
 			</li>
 			<li class="nav-item">
-				<a class = "nav-link" href="#"> Connect</a>
+				<a class = "nav-link" href="#Connect"> Connect</a>
 			</li>
 		</ul>
 	</div>
 </div>
 </nav>
+<a name = "Home"></a>
 
 <!--- Image Slider -->
 <div id="slides" class="carousel slide" data-ride="carousel">
@@ -55,8 +55,8 @@
 			<div class = "carousel-caption">
 				<h1 class "display-2"><b>Stephen Blaney</b></h1>
 				<h3>Software Engineer and Data Analyst</h3>
-				<button type= "button" class="btn btn-outline-light btn-lg">View CV</button>
-				<button type = "button" class="btn btn-primary btn-lg">GitHub</button>
+				<a href = "http://blaneystephen.com/Stephen.pdf" class="btn btn-outline btn-lg" role="button">Download CV </a>
+			 <a href = "https://github.com/StephenBlaney" class= "btn btn-primary btn-lg">GitHub</a>
 			</div>
 		</div>
 		<div class="carousel-item">
@@ -64,8 +64,8 @@
 			<div class = "carousel-caption">
 				<h1 class "display-2"><b>Stephen Blaney</b></h1>
 				<h3>Software Engineer and Data Analyst</h3>
-				<button type= "button" class="btn btn-outline-light btn-lg">View CV</button>
-				<button type = "button" class="btn btn-primary btn-lg">GitHub</button>
+				<a href = "http://blaneystephen.com/Stephen.pdf" class="btn btn-outline btn-lg" role="button">Download CV </a>
+			 <a href = "https://github.com/StephenBlaney" class= "btn btn-primary btn-lg">GitHub</a>
 			</div>
 		</div>
 		<div class="carousel-item">
@@ -73,41 +73,39 @@
 			<div class = "carousel-caption">
 				<h1 class "display-2"><b>Stephen Blaney</b></h1>
 				<h3>Software Engineer and Data Analyst</h3>
-				<button type= "button" class="btn btn-outline-light btn-lg">View CV</button>
-				<button type = "button" class="btn btn-primary btn-lg">GitHub</button>
+				<a href = "http://blaneystephen.com/Stephen.pdf" class="btn btn-outline btn-lg" role="button">Download CV </a>
+			 <a href = "https://github.com/StephenBlaney" class= "btn btn-primary btn-lg">GitHub</a>
 			</div>
 		</div>
 	</div>
 </div>
 
 <!--- Jumbotron -->
-
 <div class = "container-fluid">
 <div class = "row jumbotron">
 	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col=xl-10">
-		<p class="lead">Recently graduated from college at the Institute of Technology Blanchardstown (ITB) with a Bachelor of Science, BSc (Hons) degree, achieving a first class honors in my studies. Currently looking for employment within my field. I studied computing full time on a 4 year course with the hopes of working in the software development and data science Industry's</p>
+		<p class="lead">Recently graduated from college at the Institute of Technology Blanchardstown (ITB) with a Bachelor of Science, BSc (Hons) degree, achieving a first class honors in my studies. Currently looking for employment within my field. I studied computing full time on a four year course with the hopes of working in the software development and data science industry's.</p>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-		<a href="#"> <button type= "button" class="btn btn-outline-secondary btn-lg">Web Hosting
+		<a href="https://www.linkedin.com/in/stephenblaney0/"> <button type= "button" class="btn btn-outline-secondary btn-lg">Linkedin
 		</button></a>
 	</div>
 </div>
 </div>
 
 <!--- Welcome Section -->
+<a name = "About"></a>
 <div class="container-fluid padding">
 <div class="row welcome text-center">
 	<div class="col-12">
-		<a name = "About"></a>
-		<h1 class="display-4">What I Am About.</h1>
+		<h1 class="display-4">What I'm About.</h1>
 		<hr>
 	</div>
 	<div class="col-12">
 		<p class="lead"> I have great interest in a variety of different sport including football, rugby and even american football.
 			I'm very outgoing and love meeting new people with different experiences. In my spare time i enjoy programming 2D games and designing assets on the unity engine.
 			Keen to expand skills and knowledge and prepared to work in a variety of roles. <br> <br>
-
-			My main career focuses are in are in the follwing three fields. Currently Seeking Positions within these areas.
+			My main career focuses are in are in the following three fields. Currently Seeking Positions within these areas.
 		</p>
 	</div>
 </div>
@@ -119,14 +117,13 @@
 	<div class="col-xs-12 col-sm-6 col-md-4">
 		<i class="fab fa-android"></i>
 		<h3>Software Enginering</h3>
-		<p>Well versed in several object oriented programming languages my strongest being python and java  </p>
-
+		<p>Well versed in several object oriented programming languages my strongest being python and java </p>
 	</div>
 
 	<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="fas fa-database"></i>
 			<h3>Data Analysis</h3>
-			<p>Completed models in predictive  and sentiment analysis with an interest in developing my business intelligence skills using tableu software</p>
+			<p>Completed models in predictive and sentiment analysis with an interest in developing my business intelligence skills using tableu software</p>
 		</div>
 
 		<div class="col-sm-12 col-md-4">
@@ -140,11 +137,12 @@
 </div>
 
 <!--- Meet the team -->
+<a name = "Projects"></a>
 <div class="container-fluid padding">
 <div class="row welcome text-center">
 	<div class="col-12">
-	<h1 class="display-4">Projects</h1>
-	<hr>
+		<h1 class="display-4">Projects</h1>
+		<hr>
   </div>
 </div>
 </div>
@@ -154,132 +152,121 @@
 <div class="row padding">
 	<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="img/team1.png">
+				<img class="card-img-top" src="img/Robot.jpg">
 				<div class="card-body">
-					<h4 class="card-title">John Doe</h4>
-					<p class="card-text">John is an Internet entreprenuer with almost 20 years experience.</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<h4 class="card-title">Voice Assistend Android Appilcation for the Visual Impaired using IBM Watson</h4>
+					<p class="card-text">Final Year Project using A.I to help visual disabled clients</p>
+					<a href="https://github.com/StephenBlaney/A.I-to-Aid-the-Visually-Impaired-" class="btn btn-outline-secondary">See Project</a>
+				</div>
+			</div>
+	</div>
+
+
+	<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/Phone.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Online Price Comparison Appilcation</h4>
+					<p class="card-text">First attempt at Android. This Appication Compares firebase Databases to see which stores has the lowest prices.</p>
+					<a href="https://github.com/StephenBlaney/3rd-Year-Project-" class="btn btn-outline-secondary">See Project</a>
 				</div>
 			</div>
 	</div>
 
 	<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="img/team2.png">
+				<img class="card-img-top" src="img/data.png">
 				<div class="card-body">
-					<h4 class="card-title">Mary Jo</h4>
-					<p class="card-text">Mary is a designer with almost 10 years of digital design experience.</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+					<h4 class="card-title">Thyroid Classification Dataset </h4>
+					<p class="card-text">To build a classification model to predict if a patient is normal, suffers from hyperthyroidism or hypothyroidism </p>
+					<a href="https://github.com/StephenBlaney/Thyroid-Classification-Dataset-" class="btn btn-outline-secondary">See Project</a>
+					<br>
+					<br>
 				</div>
 			</div>
 	</div>
 
-	<div class="col-md-4">
-			<div class="card">
-				<img class="card-img-top" src="img/team3.png">
-				<div class="card-body">
-					<h4 class="card-title">Phil Ho</h4>
-					<p class="card-text">Phil is a developer with over 5 years of web development experience</p>
-					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+	<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/Fuzzylogic.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Fuzzy Logic Pump Controller </h4>
+						<p class="card-text">The objective of this assignment was to design and implement a fuzzy logic pump controller. The purpose of the pump is to keep the level of water in the tank between 40% and 70%.</p>
+						<a href="https://github.com/StephenBlaney/Fuzzy-Logic-Pump-Controller-" class="btn btn-outline-secondary">See Project</a>
+						<br><br><br>
+					</div>
 				</div>
-			</div>
-	</div>
+		</div>
 
+		<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/Text.png">
+					<div class="card-body">
+						<h4 class="card-title">Text Mining Summer vs Winter Game</h4>
+						<p class="card-text">Produce both classification and clustering model to predict which words are typical of each of the text and to group these texts from the collection of documents by using a similarity function.</p>
+						<a href="https://github.com/StephenBlaney/Text-Minning-Summer-vs-Winter-Game" class="btn btn-outline-secondary">See Project</a>
+					</div>
+				</div>
+		</div>
+
+		<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/Cabin.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Lost Cabin</h4>
+						<p class="card-text">A Surival Horror Adventure Designed and Developed on the Unity Engine using C# </p>
+						<a href="https://github.com/StephenBlaney/UnityProject" class="btn btn-outline-secondary">See Project</a>
+						<br><br><br><br><br><br><br>
+					</div>
+				</div>
+		</div>
+
+	</div>
 </div>
 </div>
 
-<!--- Two Column Section -->
-<div class="container-fluid padding">
-<div class="row padding">
-	<div class="col-lg-6">
-		<h2>Our Philosophy</h2>
-		<p>We know that greatness in a disruptive era requires bold ambition, curious talent and a culture that belives we're smarter together.</p>
-		<p>We approach every problem holistically, with the best in class expertise in data, creativity, media technology. search social and more . We call this alchemy. It has the power to build our clients brands and transform their business and while it may seem like magic, we've got in down to a science. </p>
-		<br>
-	</div>
-	<div class="col-lg-6">
-			<img src="img/bootstrap2.png" class= "img-fluid">
-	</div>
-</div>
-<hr class="my-4">
-</div>
 
 <!--- Connect -->
+<a name = "Connect"></a>
 <div class="container-fluid padding">
 <div class="row text-center padding">
 	<div class="col-12">
-		<h2>Connect</h2>
+		<h1>Connect</h1>
 	</div>
 		<div class="col-12 social padding">
-			<a href="#"><i class="fab fa-facebook"></i></a>
-			<a href="#"><i class="fab fa-twitter"></i></a>
-				<a href="#"><i class="fab fa-instagram"></i></a>
-	    <a href="#"><i class="fab fa-google-plus-g"></i></a>
-			<a href="#"><i class="fab fa-youtube"></i></a>
+			<a href="https://www.facebook.com/stephen.blaney.5"><i class="fab fa-facebook"></i></a>
+			<a href="https://twitter.com/Stephenoooo?lang=en"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/steven_blaney/?hl=en"><i class="fab fa-instagram"></i></a>
+	    <a href="https://plus.google.com/u/0/"><i class="fab fa-google-plus-g"></i></a>
+			<a href="https://www.youtube.com/channel/UCyHjHH2SRMZb0ajun2QWkEA?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+			<a href="https://www.linkedin.com/in/stephenblaney0/"><i class="fab fa-linkedin-in"></i></a>
+			<hr>
 		</div>
 	</div>
 
 </div>
 </div>
 
-
 <!--- Footer -->
 <footer>
 <div class="container-fluid padding">
 <div class="row text-center">
-	<div class="col-md-4">
-		<img src="img/w3newbie.png">
+	<div class="col-md-12">
 		<hr class="light">
-		<p>555-555-555</p>
-		<p>email@myemail.com</p>
-		<p>100 Street Name</p>
-		<p>City, State, 00000</p>
+		<p>Mobile:  085-234-4100</p>
+		<p>Blaney.stephen9@gmail.com</p>
+		<p>Dublin, Marino</p>
+		<p>Ireland</p>
 	</div>
 
-	<div class="col-md-4">
-		<hr class="light">
-		<h5>Our Hours</h5>
-		<hr class="light">
-		<p>Monday: 9am - 5pm</p>
-		<p>Saturday: 10am - 4pm</p>
-		<p>Sunday: closed</p>
-	</div>
-
-	<div class="col-md-4">
-		<hr class="light">
-		<h5>Service Area</h5>
-		<hr class="light">
-		<p>City, State, 00000</p>
-		<p>City, State, 00000</p>
-		<p>City, State, 00000</p>
-		<p>City, State, 00000</p>
-	</div>
 	<div class="col-12">
-		<hr class="light-100">
-		<h5>&copy; w3newbie.com</h5>
+		<h5>&copy; BlaneyStephen.com</h5>
 </div>
 </div>
+
 </footer>
-
-<script>
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var navbar = document.getElementById("navbar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
 
 </body>
 </html>
